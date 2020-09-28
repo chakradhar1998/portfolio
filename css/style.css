@@ -1,8 +1,5 @@
-.tala
+.main
 {
-	/*background-color: #3391ff ;*/
-	background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(148,172,27,1) 35%, rgba(0,212,255,1) 100%);
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -30,4 +27,9 @@ body{
 .links{
 	height: 50px;
 	width: 50px;
+}
+@media (prefers-color-scheme: dark) {
+	body{
+		background-color: #DD2C00;
+	}
 }
