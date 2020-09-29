@@ -1,3 +1,9 @@
+body {
+	background-color: #2E20E6;
+	/*color: #cddc12;*/
+	margin: 0;
+}
+
 .main
 {
 	height: 100vh;
@@ -5,11 +11,14 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	border: 5px solid black;
 }
 
 .notes
 {
 	margin: 0;
+	color: #cddc12;
+	text-align: center;
 }
 
 img
@@ -20,16 +29,12 @@ img
 	align-self: center;
 	box-shadow: #0a8269 2px 5px 5px;
 }
-
-body{
-	margin: 0;
-}
 .links{
 	height: 50px;
 	width: 50px;
 }
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 	body{
 		background-color: #DD2C00;
 	}
-}
+}*/
