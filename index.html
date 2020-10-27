@@ -1,39 +1,59 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Profile</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/avataaars.png" />
-  </head>
-  <body>
-    <header class="main">
-    	<div class="mini">
-    		<div class="imgur">
-		       <img
-		        src="https://instagram.fhyd2-1.fna.fbcdn.net/v/t51.2885-19/s320x320/104287734_2104985366311610_4657155388319094377_n.jpg?_nc_ht=instagram.fhyd2-1.fna.fbcdn.net&_nc_ohc=rkiBhiO_GwQAX-cMwPF&oh=784923c32cc124ed6f14e4fe62735b5e&oe=5F7B946E"
-		      />    			
-    		</div>
-	      <div class="notes">
-	        <h1>
-	          Chakradhar Gorthi
-	        </h1>
-	        <h3>
-	          I am learning full stack development, watch this space for more
-	          projects
-	        </h3>
-	        <h3>Please follow this website for more interesting things</h3>
-	      </div>
-	      <div class="social">
-	        <a href="https://www.instagram.com/chakradhargorthi/"
-	          ><img class="links" src="assets/insta.png"
-	        /></a>
-	        <a href="https://github.com/chakradhar1998"
-	          ><img class="links" src="assets/github.png"
-	        /></a>
-	      </div>   		
-    	</div>
-
-    </header>
-  </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Chakradhar Gorthi</title>
+</head>
+<body>
+	<nav class="site-nav grid">
+		<h1>Practice Blog</h1>
+		<ul>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">contact</a></li>
+		</ul>
+	</nav>
+	<section id="welcome" class="grid">
+		<div class="welcome-text">
+			<h2>Welcome to our Blog</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, cum.</p>
+		</div>
+		<div class="image"><img src="/assets/avataaars.png" alt="profile pic"></div>
+	</section>
+	<section id="portfolio">
+		<h2>Some of my projects</h2>
+		<div class="project grid">
+			<a href="">
+				<img src="/assets/project1.svg" alt="">
+				<h4>Project 1</h4>
+			</a>
+			<a href="">
+				<img src="/assets/project2.svg" alt="">
+				<h4>Project 2</h4>
+			</a>
+			<a href="">
+				<img src="/assets/project3.svg" alt="">
+				<h4>Project 3</h4>
+			</a>						
+		</div>
+	</section>
+	<section id="contact">
+		<h4>get in touch</h4>
+		<form>
+			<input type="text" placeholder="Name">
+			<input type="email" placeholder="Email">
+			<textarea placeholder="Message"></textarea>
+			<button class="button">Send Message</button>
+		</form>
+	</section>
+	<footer>
+		<div class="grid">
+			<p class="copyright">Copyright bunny 2020</p>
+			<ul class="social">
+				<li><a href=""><img src="/assets/github.svg" alt=""></a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
 </html>
