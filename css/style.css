@@ -118,7 +118,7 @@ h4 {
   border-bottom: 2px solid var(--primary);
 }
 .project {
-  gap: 10px;
+  gap: 20px;
 }
 .project a {
   grid-column: 2/9;
@@ -183,6 +183,11 @@ footer img {
   #welcome img {
     width: 60%;
   }
+  #portfolio {
+    background: url(/assets/square_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
   #portfolio h2 {
     padding-top: 15px;
   }
@@ -202,7 +207,7 @@ footer img {
   }
 }
 
-/* large tablet and laptop style */
+/* large tablet*/
 
 @media screen and (min-width: 960px) {
   body {
